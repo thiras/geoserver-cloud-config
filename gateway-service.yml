@@ -33,10 +33,7 @@ server:
 
 spring:
   cloud:
-    gateway:      
-      httpclient:
-        ssl:
-          useInsecureTrustManager: true
+    gateway:
       globalcors:
         cors-configurations:
           "[/**]":
