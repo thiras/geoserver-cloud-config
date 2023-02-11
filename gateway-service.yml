@@ -34,6 +34,7 @@ server:
 spring:
   cloud:
     gateway:
+      x-forwarded.proto: true
       globalcors:
         cors-configurations:
           "[/**]":
