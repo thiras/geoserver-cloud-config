@@ -30,6 +30,7 @@ targets:
 server:
   compression:
     enabled: true
+  forward-headers-strategy: FRAMEWORK
 
 spring:
   cloud:
